@@ -20,3 +20,4 @@ Cookiecutter API for creating simple FastAPI back-end ML oriented
 - [ ] test section with pytest
 - [ ] write readme
 - [ ] move `/scripts/*.sh` scripts under `makefile` file
+- [ ] setup the repo for cookiecutter usage
