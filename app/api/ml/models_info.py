@@ -1,8 +1,6 @@
-from datetime import datetime
-from app.models.health import HealthCheck
-from app.api.models_manager import models_manager
-
 from fastapi import APIRouter
+
+from app.api.models_manager import models_manager
 
 ml_router = APIRouter()
 

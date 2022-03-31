@@ -7,6 +7,7 @@ from pydantic import BaseSettings
 
 ENV_FILE = os.getenv("ENV_FILE", "app/.env")
 
+
 # Load env variables from ENVIRONMENT and from ENV_FILE
 class Settings(BaseSettings):
     app_name: str = "cookiecutter-fastapi-ml"
@@ -26,4 +27,3 @@ settings = Settings()
 LOGGING_LEVEL = logging.DEBUG if settings.debug else logging.INFO
 logger.configure(handlers=[{"sink": sys.stderr, "level": LOGGING_LEVEL}])
 logger.debug("Configuration parameteres loaded")
-

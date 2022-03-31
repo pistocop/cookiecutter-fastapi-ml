@@ -6,6 +6,7 @@ from app.models.health import HealthCheck
 
 health_router = APIRouter()
 
+
 @health_router.get(
     "",
     response_model=HealthCheck,

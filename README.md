@@ -13,6 +13,9 @@ Cookiecutter API for creating simple FastAPI back-end ML oriented
 
 ## TODO
 - [x] manage the routers path and imports
-- [ ] read ML model info and expose API to check those values
+- [x] read ML model info and expose API to show those values
 - [ ] linting and formatting process
 - [ ] unify logs format between uvicorn and loguru
+- [ ] test docker file 
+- [ ] write readme
+- [ ] move `/scripts/*.sh` scripts under `makefile` file
