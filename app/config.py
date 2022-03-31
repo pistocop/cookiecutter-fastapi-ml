@@ -7,12 +7,13 @@ from pydantic import BaseSettings
 
 ENV_FILE = os.getenv("ENV_FILE", "app/.env")
 
-
 # Load env variables from ENVIRONMENT and from ENV_FILE
 class Settings(BaseSettings):
     app_name: str = "cookiecutter-fastapi-ml"
     app_description: str = "cookiecutter FastAPI back-end ML oriented"
     app_version: str = "0.1.0"
+    api_prefix: str = ""
+    models_file = "app/ml-models.json"
     debug: bool = False
 
     class Config:

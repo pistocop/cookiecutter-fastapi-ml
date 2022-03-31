@@ -3,7 +3,7 @@ Cookiecutter API for creating simple FastAPI back-end ML oriented
 
 
 ## Up & Run
-- `export PYTHONPATH="$PWD" && python app/main.py`
+- TODO
 
 ## FastAPI template features
 - Use poetry as Python dependency management
@@ -12,5 +12,7 @@ Cookiecutter API for creating simple FastAPI back-end ML oriented
 - ML models informations loaded from `.json` file from both App and download process
 
 ## TODO
+- [x] manage the routers path and imports
 - [ ] read ML model info and expose API to check those values
 - [ ] linting and formatting process
+- [ ] unify logs format between uvicorn and loguru

@@ -1,14 +1,12 @@
-from asyncio.log import logger
 from datetime import datetime
 
 from fastapi import APIRouter
 
 from app.models.health import HealthCheck
 
-router = APIRouter()
+health_router = APIRouter()
 
-
-@router.get(
+@health_router.get(
     "",
     response_model=HealthCheck,
     name="health:check",
