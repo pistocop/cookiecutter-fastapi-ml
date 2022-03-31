@@ -17,6 +17,7 @@ logger.configure(
 def test_read_item():
     response = client.get("/health")
     print("hello")
-    logger.info(f"Example of pytest log! Current time:{response.json()['timestamp']}")
+    timestamp = response.json()["timestamp"]
+    logger.info(f"Example of pytest log! Current time:{timestamp}")
     assert response.status_code == 200
     assert False
