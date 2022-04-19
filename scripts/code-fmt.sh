@@ -6,4 +6,5 @@ set -x
 ACTUAL_DIR=${0%/*}
 cd "${ACTUAL_DIR}"/../
 
-pytest ./tests/
+black app/ tests/
+isort app/ tests/

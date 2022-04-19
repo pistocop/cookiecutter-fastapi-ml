@@ -5,7 +5,7 @@ set -e
 OLD_DIR=$(pwd)
 ACTUAL_DIR=${0%/*}
 MODELS_JSON="app/ml-models.json"
-MODELS_DEST_PATH="app/ml-models/"
+MODELS_DEST_PATH="app/ml-models"
 
 # Check required programs
 if ! command -v jq &> /dev/null

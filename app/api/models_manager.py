@@ -16,20 +16,20 @@ class ModelsManager:
         return self.models_info
 
     @staticmethod
-    def _load_models_info(models_file) -> List[dict]:
+    def _load_models_info(models_file: str) -> List[dict]:
         models_info = json.load(open(models_file, "r"))
         return models_info
 
     @staticmethod
     def _load_models(models_info: List[dict]) -> dict:
-        models = {}
+        models: dict = {}
         for model_info in models_info:
             id = model_info["model_id"]
             models[id] = ModelsManager._load_model(model_info)
         return models
 
     @staticmethod
-    def _load_model(model_info: dict):
+    def _load_model(model_info: dict) -> None:
         pass
 
 
