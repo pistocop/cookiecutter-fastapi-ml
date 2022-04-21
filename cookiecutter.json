@@ -4,5 +4,5 @@
     "project_short_description": "My FastAPI project description...",
     "version": "0.0.1",
     "author": "pistocop",
-    "author-email": "hey@pistocop.dev"
+    "author_email": "hey@pistocop.dev"
 }
