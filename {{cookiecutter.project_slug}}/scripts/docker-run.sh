@@ -3,4 +3,4 @@
 ACTUAL_DIR=${0%/*}
 cd "${ACTUAL_DIR}/../"
 
-docker run --rm -p 8000:80 --name be-fastapi-ml-container be-fastapi-ml
+docker run --rm -p 8080:80 --name {{cookiecutter.project_slug}}-container {{cookiecutter.project_slug}}

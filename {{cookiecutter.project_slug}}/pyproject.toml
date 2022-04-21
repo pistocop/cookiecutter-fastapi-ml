@@ -1,10 +1,8 @@
-# ---
-# Poetry stuff
 [tool.poetry]
-name = "cookiecutter-fastapi-ml"
-version = "0.1.0"
-description = "cookiecutter FastAPI back-end ML oriented"
-authors = ["pistocop <hey@pistocop.dev>"]
+name = "{{cookiecutter.project_name}}"
+version = "{{cookiecutter.version}}"
+description = "{{cookiecutter.project_short_description}}"
+authors = ["{{cookiecutter.author}} email: {{cookiecutter.author-email}}"]
 license = "MIT"
 
 [tool.poetry.dependencies]

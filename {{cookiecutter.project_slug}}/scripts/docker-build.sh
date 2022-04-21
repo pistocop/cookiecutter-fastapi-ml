@@ -5,4 +5,4 @@ set -e
 ACTUAL_DIR=${0%/*}
 cd "${ACTUAL_DIR}/../"
 
-docker build -t be-fastapi-ml .
+docker build -t {{cookiecutter.project_slug}} .
