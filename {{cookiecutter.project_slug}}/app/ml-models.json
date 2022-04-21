@@ -1,0 +1,17 @@
+[
+
+    {
+        "model_id": "my-model-1",
+        "download_link": "https://my.model.1.host/link",
+        "model_info": {
+            "note": "my-model-1 useful notes"
+        }
+    },
+    {
+        "model_id": "my-model-2",
+        "download_link": "https://my.model.2.host/link",
+        "model_info": {
+            "note": "my-model-2 useful notes"
+        }
+    }
+]
