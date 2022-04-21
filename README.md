@@ -1,8 +1,7 @@
-# cookiecutter-fastapi-ml
+# Cookiecutter-fastapi-ml
 Cookiecutter API for creating simple FastAPI back-end ML oriented
 
-
-## Up & Run
+## Quickstart
 - TODO
 
 ## FastAPI template features
@@ -25,7 +24,7 @@ Cookiecutter API for creating simple FastAPI back-end ML oriented
     -  To answer your second question, if you take a look at my "e2e" tests here, I basically do what you're describing 
 - [ ] test cookiecutter
   - [ ] test license generated
-  - [ ] 
+  - [ ] test readme generated
 - [x] test docker file
 - [ ] ~~move `/scripts/*.sh` scripts under `makefile` file~~
 - [x] add custom settings for isort / black / flake
@@ -35,3 +34,10 @@ Cookiecutter API for creating simple FastAPI back-end ML oriented
 - [ ] write readme
 - [ ] unify logs format between uvicorn and loguru
 - [x] remove vscode settings?
+- [x] remove .lock from template?
+- [ ] add cookiecutter testing
+
+## Credits
+- Code and tips from [ali92hm/cookiecutter-pyproject](https://github.com/ali92hm/cookiecutter-pyproject)
+- Cookiecutter usages from [cookiecutter-pypackage](https://github.com/audreyfeldroy/cookiecutter-pypackage)
+- Tests based on [pytest-cookies](https://pypi.org/project/pytest-cookies/)
