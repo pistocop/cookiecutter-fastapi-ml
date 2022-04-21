@@ -32,6 +32,7 @@ for row in $(cat "${MODELS_JSON}" | jq -r '.[] | @base64'); do
     MODEL_PATH="${MODELS_DEST_PATH}"/"${MODEL_ID}"
     echo "Downloading model $MODEL_ID from link $MODEL_LINK and store to $MODEL_PATH"
     # <your download mechanism here>, you could use .env info (e.g. $MY_SECRET_TOKEN)
+    echo "[!] WARNING: download model behaviour not implemented!"
 done
 
 echo "All models downloaded!"

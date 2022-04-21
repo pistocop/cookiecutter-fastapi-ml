@@ -2,7 +2,7 @@ from typing import List
 
 from fastapi import APIRouter
 
-from app.api.models_manager import models_manager
+from app.api.ml.models_manager import models_manager
 
 ml_router = APIRouter()
 
