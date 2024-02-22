@@ -25,7 +25,5 @@ $ cookiecutter https://github.com/pistocop/cookiecutter-fastapi-ml.git
 
 
 ## TODO
-- [ ] add cookiecutter tests
-  - Note: Tests based on [pytest-cookies](https://pypi.org/project/pytest-cookies/)
-  - [ ] test license generated
-  - [ ] test readme generated
+- [ ] review script fmt / linters and cfg file
+- [ ] use the toml version as BE version
